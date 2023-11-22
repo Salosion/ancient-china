@@ -1,0 +1,21 @@
+.button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 45%;
+  cursor: pointer;
+  padding: 0;
+}
+
+.prev {
+  left: 25px;
+}
+
+.next {
+  right: 25px;
+}
